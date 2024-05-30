@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Products from "./components/Products"
 import Why from "./components/Why"
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="w-full flex flex-col">
       <Header />
       <Why />
+      <Products />
     </div>
   )
 }
